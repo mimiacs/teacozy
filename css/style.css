@@ -6,6 +6,12 @@ body {
   opacity: 0.9;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .mission {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
@@ -14,6 +20,10 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+.mission-bar {
+  background-color: black;
 }
 
 img {
